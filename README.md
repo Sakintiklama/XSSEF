@@ -6,6 +6,24 @@
  It is for educational purposes only. In case of abuse, the user is responsible.
  
  
+ 
+# PARAMETHERS & WORKS
+ 
+ ```
+ --user [-u] -> Freamwork Usrname
+ --target [-t]  -> (VULNERABLE) TARGET URL
+ 
+ --post [-p] -> VULNERABLE POST PARAMETHER
+ --get [-g] -> VULNERABLE GET PARAMETHER
+ --cookie [-c] -> COOKI FOR AUTHENTICATIONS (FOR AUTHENTICATED VULNERABILITIES)
+ 
+ ``` 
+ 
+ 
+ 
+ 
+ 
+ 
  # USAGE BOOK 
  
  ### POST VALUE EXPLOITATION
@@ -41,8 +59,8 @@
   `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME]`
   
   Authenticated HTTP HEADER Value Exploitation :
-  
-  'python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -c [PHPSESSION ID FOR AUTHENTICATION]'
+ 
+  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -c [PHPSESSION ID FOR AUTHENTICATION]`
   
   
   
