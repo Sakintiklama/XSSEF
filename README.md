@@ -6,7 +6,7 @@
  It is for educational purposes only. In case of abuse, the user is responsible.
  
  
- # DOWNLOAD & INSTALLATION
+ ### DOWNLOAD & INSTALLATION
  
   ```
   $ git clone https://github.com/ringzerofy/XSSEF.git
@@ -17,7 +17,7 @@
   ```
  
  
-# PARAMETHERS & WORKS
+### PARAMETHERS & WORKS
  
  ```
  --user [-u] -> Freamwork Usrname
