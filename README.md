@@ -42,7 +42,7 @@
   
   Authenticated HTTP HEADER Value Exploitation :
   
-  '''python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -c [PHPSESSION ID FOR AUTHENTICATION]'''
+  'python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -c [PHPSESSION ID FOR AUTHENTICATION]'
   
   
   
