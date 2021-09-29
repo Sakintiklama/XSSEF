@@ -73,4 +73,11 @@
   `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -c [PHPSESSION ID FOR AUTHENTICATION]`
   
   
-  
+# REQUIREMENTS
+ ```
+ Python Version >= 3.0
+ 
+ $pip install -m requests
+ $pip install -m argparse
+ 
+ ```
