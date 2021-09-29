@@ -6,7 +6,10 @@
  It is for educational purposes only. In case of abuse, the user is responsible.
  
  
- [USAGE BOOK](https://github.com/ringzerofy/XSSEF#usage-book)
+ 1)- [USAGE BOOK](https://github.com/ringzerofy/XSSEF#usage-book)
+ 2)- [REQUIREMENTS](https://github.com/ringzerofy/XSSEF#requirements)
+ 3)- [DOWNLOAD AND INSTALLATION](https://github.com/ringzerofy/XSSEF#download--installation)
+ 4)- [PARAMETHERS AND WORKS](https://github.com/ringzerofy/XSSEF#paramethers--works)
  
  
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
