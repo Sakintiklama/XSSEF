@@ -55,7 +55,7 @@
  $pip install -m requests
  $pip install -m argparse
  
- XXEF Freamwork Account
+ XXSEF Freamwork Account
  
  ```
  
