@@ -6,6 +6,16 @@
  It is for educational purposes only. In case of abuse, the user is responsible.
  
  
+ # DOWNLOAD & INSTALLATION
+ 
+  ```
+  $ git clone https://github.com/ringzerofy/XSSEF.git
+  $ cd XSSEF-master
+  $ chmod 777 * (Linux)
+  $ python xssef.py --help
+  
+  ```
+ 
  
 # PARAMETHERS & WORKS
  
