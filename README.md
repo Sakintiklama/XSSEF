@@ -26,7 +26,7 @@
  
  # USAGE BOOK 
  
- ### POST VALUE EXPLOITATION
+ ### [POST] VALUE EXPLOITATION
    
   Unauthenticated POST Value Exploitation :
   
@@ -38,7 +38,7 @@
   
   
   
-  ### GET VALUE EXPLOITATION
+  ### [GET] VALUE EXPLOITATION
    
   Unauthenticated GET Value Exploitation :
   
@@ -52,7 +52,7 @@
   
   
   
-  ### HTTP HEADER VALUE EXPLOITATION
+  ### [HTTP HEADER] VALUE EXPLOITATION
    
   Unauthenticated HTTP HEADER Value Exploitation :
   
