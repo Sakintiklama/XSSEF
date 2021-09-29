@@ -10,4 +10,8 @@
  
 ### POST VALUE EXPLOITATION
    
-  Unauthenticated POST Value Exploitation : `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -p [VULNERABLE POST VALUE]`
+  Unauthenticated POST Value Exploitation :
+  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -p [VULNERABLE POST VALUE]`
+  
+  Authenticated POST Value Exploitation :
+  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -p [VULNERABLE POST VALUE] -c [PHPSESSION ID FOR AUTHENTICATION]`
