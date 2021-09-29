@@ -6,6 +6,14 @@
  It is for educational purposes only. In case of abuse, the user is responsible.
  
  
+ ![USAGE BOOK](https://github.com/ringzerofy/XSSEF#usage-book)
+ 
+ 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
  ### DOWNLOAD & INSTALLATION
  
   ```
