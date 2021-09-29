@@ -6,7 +6,8 @@
  It is for educational purposes only. In case of abuse, the user is responsible.
  
  
-### USAGE BOOK 
+ # USAGE BOOK 
  
- 
- 
+### POST VALUE EXPLOITATION
+   
+  ss
