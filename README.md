@@ -62,7 +62,7 @@
  
  # USAGE BOOK 
  
- ### [POST] VALUE EXPLOITATION
+ ### [POST] PARAMETHER EXPLOITATION
    
   ``` 
   Unauthenticated POST Value Exploitation :
@@ -76,7 +76,7 @@
   ```
   
   
-  ### [GET] VALUE EXPLOITATION
+  ### [GET] PARAMETHER EXPLOITATION
   
   ```
   Unauthenticated GET Value Exploitation :
@@ -92,7 +92,7 @@
   
   
   
-  ### [HTTP HEADER] VALUE EXPLOITATION
+  ### [HTTP HEADER] PARAMETHER EXPLOITATION
   
   ```
   Unauthenticated HTTP HEADER Value Exploitation :
