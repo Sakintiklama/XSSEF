@@ -64,39 +64,45 @@
  
  ### [POST] VALUE EXPLOITATION
    
+  ``` 
   Unauthenticated POST Value Exploitation :
   
-  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -p [VULNERABLE POST PARAMETHER]`
+  $ python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -p [VULNERABLE POST PARAMETHER]
   
   Authenticated POST Value Exploitation :
   
-  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -p [VULNERABLE POST PARAMETHER] -c [PHPSESSION ID FOR AUTHENTICATION]`
+  $ python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -p [VULNERABLE POST PARAMETHER] -c [PHPSESSION ID FOR AUTHENTICATION]
   
+  ```
   
   
   ### [GET] VALUE EXPLOITATION
-   
+  
+  ```
   Unauthenticated GET Value Exploitation :
   
-  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -g [VULNERABLE GET PARAMETHER]`
+  $ python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -g [VULNERABLE GET PARAMETHER]
   
   Authenticated GET Value Exploitation :
   
-  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -g [VULNERABLE GET PARAMETHER] -c [PHPSESSION ID FOR AUTHENTICATION]`
+  $ python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -g [VULNERABLE GET PARAMETHER] -c [PHPSESSION ID FOR AUTHENTICATION]
   
+  ```
   
   
   
   
   ### [HTTP HEADER] VALUE EXPLOITATION
-   
+  
+  ```
   Unauthenticated HTTP HEADER Value Exploitation :
   
-  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME]`
+  $ python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME]
   
   Authenticated HTTP HEADER Value Exploitation :
  
-  `python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -c [PHPSESSION ID FOR AUTHENTICATION]`
+  $ python xssef.py -t [TARGET URL] -u [FREAMWORK USERNAME] -c [PHPSESSION ID FOR AUTHENTICATION]
   
+  ```
   
 
