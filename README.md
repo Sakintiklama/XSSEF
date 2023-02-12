@@ -1,7 +1,7 @@
 # XSSEF
- Cross Site Scripting Vulnerability Exploitation Freamwork
+ Blind Cross Site Scripting Vulnerability Exploitation Freamwork
  Authenticated & Unauthenticated POST,GET,HTTPHEADER xss exploitation & session stealing freamwork.
- In order to use it, you must be registered to the Freamwork System.
+ In order to use it, you must be registered to the Freamwork System (xss.report)
  
  It is for educational purposes only. In case of abuse, the user is responsible.
  
