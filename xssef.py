@@ -6,12 +6,12 @@ from helperfuncs_lib import Banner, Clear
 from sys import argv, exit
 import argparse
 
-parser = argparse.ArgumentParser(description=" ~ [ Xss Exploitation Freamwork ] ~ ")
+parser = argparse.ArgumentParser(description=" ~ [ Xss.Report Exploitation Freamwork ] ~ ")
 parser.add_argument('-t', '--target', help=' [Target URL] ')
-parser.add_argument('-u', '--user', help=' [YOUR XSSEF USERNAME]')
+parser.add_argument('-u', '--user', help=' [YOUR xss.report DOMAIN NAME]')
 parser.add_argument('-p', '--post', help=' [VULNERABLE POST PARAMETHER] ')
 parser.add_argument('-g', '--get', help=' [VULNERABLE GET PARAMETHER] ')
-parser.add_argument('-c', '--cookie', help=' [COOKIE FOR AUTH]')
+parser.add_argument('-c', '--cookie', help=' [COOKIE FOR AUTH (If needful) ]')
 
 args = parser.parse_args()
 
@@ -21,8 +21,8 @@ if not len(argv) > 1:
 
 
 def Helprr():
-    print( "Authenticated & Unauthenticated POST,GET,HTTPHEADER xss exploitation & cookie stealing freamwork.")
-    print("In order to use it, you must be registered to the Freamwork System.")
+    print( "Authenticated & Unauthenticated POST,GET,HTTPHEADER blind xss exploitation & cookie stealing freamwork.")
+    print("In order to use it, you must be registered to the https://xss.report/ System.")
     parser.print_help()
     exit(1)
 
